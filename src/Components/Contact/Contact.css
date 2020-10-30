@@ -1,3 +1,7 @@
 .contact-container {
   background-color: #252424;
 }
+
+.contact-style {
+  border: 1px solid #e91e63;
+}
