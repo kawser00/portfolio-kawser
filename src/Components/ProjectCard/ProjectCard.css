@@ -11,5 +11,10 @@
 }
 
 .card{
-  height: 500px;
+  height: 480px;
 }
+
+.icon-style {
+  font-size: 23px;
+}
+
