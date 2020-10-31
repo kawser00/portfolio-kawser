@@ -1,8 +1,8 @@
 import React from 'react';
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faGithub, faLinkedin, faLinkedinIn, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faMapMarker, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faGithub, faLinkedinIn, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 
 const Contact = () => {
@@ -11,25 +11,25 @@ const Contact = () => {
       <h1 className='text-center font-weight-bold'>CONTACT</h1>
       <h5 className='text-center text-color font-weight-bold'>Have a question or want to work together?</h5>
         <div className="container-fluid">
-          <div className="row p-3 d-flex justify-content-between">
+          <div className="row p-3 my-5 d-flex justify-content-between">
           <div className="col-md-6 col-sm-12 shadow-lg p-5 contact-style">
             <h4 className='text-center font-weight-bold pb-4'>Get In Tough</h4>
             <form>
-              <div class="form-group d-flex justify-content-center">
-                <input type="text" class="form-control" name="name" autocomplete="off" id="exampleInputName" placeholder="Enter your name" required />
+              <div className="form-group d-flex justify-content-center">
+                <input type="text" className="form-control" name="name" autoComplete="off" id="exampleInputName" placeholder="Enter your name" required />
               </div>
-              <div class="form-group d-flex justify-content-center">
-                <input type="email" class="form-control" name="email" id="exampleInputEmail1" placeholder="Email" autocomplete="off" required />
+              <div className="form-group d-flex justify-content-center">
+                <input type="email" className="form-control" name="email" id="exampleInputEmail1" placeholder="Email" autoComplete="off" required />
               </div>
-              <div class="form-group d-flex justify-content-center">
-                <textarea class="form-control" name="message" rows="3" placeholder="Your Message" required></textarea>
+              <div className="form-group d-flex justify-content-center">
+                <textarea className="form-control" name="message" rows="3" placeholder="Your Message" required></textarea>
               </div>
-              <div class="">
+              <div className="">
                 <button type="submit" className="btn btn-bg text-white w-100">SUBMIT</button>
               </div>
             </form>
           </div>
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-6 col-sm-12 px-5">
             <div className="contact-info">
               <div className="mb-2">
                 <span className="mr-5"><FontAwesomeIcon className="text-color" icon={faMapMarkerAlt} /></span>
