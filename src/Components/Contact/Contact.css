@@ -7,18 +7,27 @@
 }
 
 .contact-info {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .social-icon-style {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 4rem;
-  width: 4rem;
+  height: 3.8rem;
+  width: 3.8rem;
   color: #343a40;
   border-radius: 100%;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-right: 1.5rem;
   border: 1px solid #e91e63;
+}
+
+.social-icon-style:hover {
+  color: #fff;
+  background-color: #e91e63;
+}
+
+.pl {
+  padding-left: 2rem;
 }

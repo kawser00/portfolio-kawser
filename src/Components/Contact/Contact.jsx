@@ -29,18 +29,18 @@ const Contact = () => {
               </div>
             </form>
           </div>
-          <div className="col-md-6 col-sm-12 px-5">
+          <div className="col-md-6 col-sm-12 pl mt-5">
             <div className="contact-info">
               <div className="mb-2">
-                <span className="mr-5"><FontAwesomeIcon className="text-color" icon={faMapMarkerAlt} /></span>
+                <span className="mr-4"><FontAwesomeIcon className="text-color" icon={faMapMarkerAlt} /></span>
                 <span>Mirpur 12, Dhaka, Bangladesh</span>
               </div>
               <div className="mb-2">
-                <span className="mr-5"><FontAwesomeIcon className="text-color" icon={faPhoneAlt} /></span>
+                <span className="mr-4"><FontAwesomeIcon className="text-color" icon={faPhoneAlt} /></span>
                 <span>+880-1710-302513</span>
               </div>
               <div className="mb-2">
-                <span className="mr-5"><FontAwesomeIcon className="text-color" icon={faEnvelope} /></span>
+                <span className="mr-4"><FontAwesomeIcon className="text-color" icon={faEnvelope} /></span>
                 <span>kawser.ahmed9009@gmail.com</span>
               </div>
             </div>
@@ -65,8 +65,6 @@ const Contact = () => {
               </ul>
             </div>
           </div>
-         
-          
         </div>
       </div>
       <footer className="copyRight text-center bg-dark p-4 text-white">
