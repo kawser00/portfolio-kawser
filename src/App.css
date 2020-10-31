@@ -4,6 +4,9 @@
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
 .btn-bg {
   background-color: #e91e63;
 }
@@ -11,3 +14,4 @@
 .text-color{
   color: #e91e63
 }
+
