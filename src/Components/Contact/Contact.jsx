@@ -51,16 +51,16 @@ const Contact = () => {
                   <a className=" social-icon-style" href="https://web.facebook.com/kawsar.mahmud00/" target="/_blank"><FontAwesomeIcon  icon={faFacebook} /></a>
                 </li> */}
                 <li>
-                  <a className=" social-icon-style" href="https://www.linkedin.com/in/kawsarmahmud/" target="/_blank"><FontAwesomeIcon  icon={faLinkedinIn} /></a>
+                  <a className=" social-icon-style" href="https://www.linkedin.com/in/kawser00/" target="/_blank"><FontAwesomeIcon  icon={faLinkedinIn} /></a>
                 </li>
                 <li>
-                  <a className=" social-icon-style" href="https://github.com/kawsar00" target="/_blank"><FontAwesomeIcon  icon={faGithub} /></a>
+                  <a className=" social-icon-style" href="https://github.com/kawser00" target="/_blank"><FontAwesomeIcon  icon={faGithub} /></a>
                 </li>
                 <li>
                   <a className=" social-icon-style" href="https://twitter.com/Kawser12759188" target="/_blank"><FontAwesomeIcon  icon={faTwitter} /></a>
                 </li>
                 <li>
-                  <a className=" social-icon-style" href="https://medium.com/@kawsarmahmud358" target="/_blank"><FontAwesomeIcon  icon={faMedium} /></a>
+                  <a className=" social-icon-style" href="https://medium.com/@kawser00" target="/_blank"><FontAwesomeIcon  icon={faMedium} /></a>
                 </li>
               </ul>
             </div>
