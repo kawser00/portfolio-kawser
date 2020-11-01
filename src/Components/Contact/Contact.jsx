@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faGithub, faLinkedinIn, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedinIn, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 
