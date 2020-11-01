@@ -41,23 +41,23 @@ const Contact = () => {
               </div>
               <div className="mb-2">
                 <span className="mr-4"><FontAwesomeIcon className="text-color" icon={faEnvelope} /></span>
-                <span>kawser.ahmed9009@gmail.com</span>
+                <span>kawser.ahmed.dev@gmail.com</span>
               </div>
             </div>
             <hr className="btn-bg my-5" />
             <div className="social-icon">
               <ul className="d-flex list-unstyled">
-                <li>
+                {/* <li>
                   <a className=" social-icon-style" href="https://web.facebook.com/kawsar.mahmud00/" target="/_blank"><FontAwesomeIcon  icon={faFacebook} /></a>
-                </li>
-                <li>
-                  <a className=" social-icon-style" href="https://twitter.com/Kawser12759188" target="/_blank"><FontAwesomeIcon  icon={faTwitter} /></a>
-                </li>
+                </li> */}
                 <li>
                   <a className=" social-icon-style" href="https://www.linkedin.com/in/kawsarmahmud/" target="/_blank"><FontAwesomeIcon  icon={faLinkedinIn} /></a>
                 </li>
                 <li>
                   <a className=" social-icon-style" href="https://github.com/kawsar00" target="/_blank"><FontAwesomeIcon  icon={faGithub} /></a>
+                </li>
+                <li>
+                  <a className=" social-icon-style" href="https://twitter.com/Kawser12759188" target="/_blank"><FontAwesomeIcon  icon={faTwitter} /></a>
                 </li>
                 <li>
                   <a className=" social-icon-style" href="https://medium.com/@kawsarmahmud358" target="/_blank"><FontAwesomeIcon  icon={faMedium} /></a>

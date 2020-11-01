@@ -11,7 +11,7 @@ const HeaderMain = () => {
           <h2 className="text-color">Hello!</h2>
           <h1 style={{ fontSize: '5vw' }}>I'm <span >Kawser </span>Ahmed</h1>
           <Typical
-            steps={["Mern Stack Developer", 1000, "I'M A Programmer", 1000, "I Love Handling Coding", 1000, "I'M Creative", 1000,]}
+            steps={["Mern Stack Developer", 1000, "I'M A Programmer", 1000, "I Love Handling Errors", 1000, "I'M Creative", 1000,]}
             loop={Infinity}
             wrapper="h1"
             className="caca"
