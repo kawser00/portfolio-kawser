@@ -30,7 +30,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             
-          <a className="btn btn-bg text-white" href="https://drive.google.com/file/d/18LNd43kI4-MRSN6bBE4emYAwvMkcOkvt/view?usp=sharing" target="/blank">RESUME</a>
+          <a className="btn btn-bg text-white" href="https://drive.google.com/file/d/11vIMtLPaE6qscm2wAVSkVHsKmN0pm-im/view?usp=sharing" target="/blank">RESUME</a>
           </li>
         </ul>
       </div>
