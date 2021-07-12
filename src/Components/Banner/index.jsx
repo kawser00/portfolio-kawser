@@ -1,17 +1,17 @@
 import React from 'react';
-import './HeaderMain.css';
+import './Banner.css';
 import Particles from 'react-particles-js';
 import Typical from 'react-typical'
 
-const HeaderMain = () => {
+const Banner = () => {
   return (
-    <div id="home" style={{ height: '100vh', position: "relative" }} className='header-bg'>
+    <div id="home" style={{ height: '96vh', position: "relative" }} className='header-bg'>
       <header id="home" className="d-flex justify-content-center align-items-center">
         <div className="header-section" id="div">
           <h2 className="text-color">Hello!</h2>
           <h1 style={{ fontSize: '5vw' }}>I'm <span >Kawser </span>Ahmed</h1>
           <Typical
-            steps={["Mern Stack Developer", 1000, "I'M A Programmer", 1000, "I Love Handling Errors", 1000, "I'm Creative", 1000,]}
+            steps={["Mern Stack Developer", 1000, "I'm a Programmer", 1000, "I Love To Handling Errors", 1000, "I'm Creative", 1000,]}
             loop={Infinity}
             wrapper="h1"
             className="caca"
@@ -49,4 +49,4 @@ const HeaderMain = () => {
   );
 };
 
-export default HeaderMain;
+export default Banner;

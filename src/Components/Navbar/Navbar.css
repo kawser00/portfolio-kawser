@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+.logo {
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Parisienne', cursive;
+}
+
+.active {
+  border-bottom: 1px solid #e91e63;
+}
