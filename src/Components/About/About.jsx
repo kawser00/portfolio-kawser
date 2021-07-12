@@ -5,9 +5,10 @@ import Fade from "react-reveal/Fade";
 
 const About = () => {
   return (
-    <div id="about" className="container-fluid">
+    <div  className="container-fluid">
+      <div id="about" style={{height: '10vh'}}></div>
       <div className="row">
-        <div className="col-md-12 text-center m-5 p-3">
+        <div className="col-md-12 text-center mx-4 p-3">
           <Fade top>
             <h1 className="font-weight-bold">
               ABOUT <span className="text-color">ME</span>

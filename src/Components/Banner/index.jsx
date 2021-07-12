@@ -5,7 +5,7 @@ import Typical from 'react-typical'
 
 const Banner = () => {
   return (
-    <div id="home" style={{ height: '100vh', position: "relative" }} className='header-bg'>
+    <div id="home" style={{ height: '96vh', position: "relative" }} className='header-bg'>
       <header id="home" className="d-flex justify-content-center align-items-center">
         <div className="header-section" id="div">
           <h2 className="text-color">Hello!</h2>
