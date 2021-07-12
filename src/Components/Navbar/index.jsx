@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <nav className="navbar bg-white navbar-expand-lg navbar-light sticky-top  shadow-lg">
-      <a className="navbar-brand px-2" href="#home">
+      <a className="navbar-brand p-0 m-0" href="#home">
         <h3 className="font-weight-bold text-color logo m-0">{'< KAWSER />'}</h3>
       </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

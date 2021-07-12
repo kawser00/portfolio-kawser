@@ -12,10 +12,25 @@ body {
   background-color: #e91e63;
 }
 
-.text-color{
-  color: #e91e63
+.text-color {
+  color: #e91e63;
 }
 
-.react-reveal {
+/* .react-reveal {
+  animation-duration: 3000ms !important;
+}
+.serviceCard > .react-reveal {
   animation-duration: 2000ms !important;
+} */
+
+@media (max-width: 450px) {
+  .contact-info {
+    font-size: 18px !important;
+  }
+
+  .social-icon-style {
+    height: 2.5rem !important;
+    width: 2.5rem !important;
+    font-size: 1.3rem !important;
+  }
 }

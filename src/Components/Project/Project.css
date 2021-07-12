@@ -11,10 +11,18 @@
 }
 
 .card{
-  height: 480px;
+  height: 500px;
 }
 
-.icon-style {
-  font-size: 23px;
-}
+.card-img-wrapper {
+  overflow: hidden;
+  max-height: 270px;
 
+}
+img.card-img-top:hover {
+  transform: translateY(-80%);
+}
+img.card-img-top {
+  transition: transform 3s ease-in-out;
+  width: 100%;
+}

@@ -31,3 +31,9 @@
 .pl {
   padding-left: 2rem;
 }
+
+footer > p {
+  margin-bottom: 0.4rem;
+  color: rgba(198, 201, 216, 0.8274509);
+  font-weight: 600;
+}
