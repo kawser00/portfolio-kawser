@@ -1,5 +1,5 @@
 import React from "react";
-import "./Project.css";
+import  styles from "./Project.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
@@ -8,12 +8,11 @@ import Fade from "react-reveal/Fade";
 const ProjectCard = (props) => {
   const { title, description, img, github, live } = props.singleProject;
   return (
-    <div className="col-lg-4 col-md-6 col-sm-12 serviceCard">
+    <div className={`${styles.serviceCard} col-lg-4 col-md-6 col-sm-12`}>
       <Fade bottom>
-        <div className="single-item my-4">
-          <div className="card shadow">
-            <div className="card-img-wrapper">
-              <img className="card-img-top" src={img} alt={title} />
+          <div className={`${styles.projectCard} card shadow project-card my-4`}>
+            <div className={`${styles.card_img_wrapper}`}>
+              <img className={`${styles.card_img_top}`} src={img} alt={title} />
             </div>
             <div className="card-body">
               <h4 className="card-title font-weight-bold">{title}</h4>
@@ -40,7 +39,6 @@ const ProjectCard = (props) => {
               </a>
             </div>
           </div>
-        </div>
       </Fade>
     </div>
   );

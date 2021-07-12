@@ -38,7 +38,7 @@ const Contact = () => {
       );
   };
   return (
-    <>
+    <section>
       <div id="contact" style={{ height: "10vh" }}></div>
       <Fade top>
         <h1 className="text-center font-weight-bold">CONTACT</h1>
@@ -173,7 +173,7 @@ const Contact = () => {
         </p>
         <p>Copyright © {new Date().getFullYear()}, All Rights Reserved</p>
       </footer>
-    </>
+    </section>
   );
 };
 
