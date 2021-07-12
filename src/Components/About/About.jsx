@@ -1,7 +1,10 @@
 import React from "react";
 import "./About.css";
 import kawsar from "../../images/kawsar1.png";
+import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
+
+
 
 const About = () => {
   return (
@@ -37,10 +40,10 @@ const About = () => {
             </Fade>
           </div>
         </div>
-        <Fade bottom>
+        <Zoom>
           <div className="col-md-12 px-4 px-lg-5 pb-5">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-6 mb-5">
                 <h3 className="pb-2">PROFILE</h3>
                 <h5>Name:</h5>
                 <p>KAWSER AHMED</p>
@@ -97,7 +100,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        </Fade>
+        </Zoom>
       </div>
     </div>
   );
