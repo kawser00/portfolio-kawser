@@ -16,3 +16,6 @@ body {
   color: #e91e63
 }
 
+.react-reveal {
+  animation-duration: 2000ms !important;
+}
