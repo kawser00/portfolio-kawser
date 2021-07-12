@@ -1,9 +1,9 @@
 import React from 'react';
-import './HeaderMain.css';
+import './Banner.css';
 import Particles from 'react-particles-js';
 import Typical from 'react-typical'
 
-const HeaderMain = () => {
+const Banner = () => {
   return (
     <div id="home" style={{ height: '100vh', position: "relative" }} className='header-bg'>
       <header id="home" className="d-flex justify-content-center align-items-center">
@@ -49,4 +49,4 @@ const HeaderMain = () => {
   );
 };
 
-export default HeaderMain;
+export default Banner;
