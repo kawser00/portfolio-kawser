@@ -23,7 +23,7 @@ const Project = () => {
           ))}
         </div>
         <Zoom>
-          <div className="see-more-btn mb-5 text-center">
+          <div className="mb-5 text-center">
             <a
               href="https://github.com/kawser00"
               class="btn btn-outline-danger"

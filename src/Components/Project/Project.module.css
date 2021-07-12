@@ -1,6 +1,3 @@
-.service-container:hover {
-  text-decoration: none;
-}
 
 .serviceCard {
   transition: .3s all ease-in;
@@ -10,19 +7,19 @@
   transform: scale(1);
 }
 
-.card{
+.projectCard{
   height: 500px;
 }
 
-.card-img-wrapper {
+.card_img_wrapper {
   overflow: hidden;
   max-height: 270px;
 
 }
-img.card-img-top:hover {
+img.card_img_top:hover {
   transform: translateY(-80%);
 }
-img.card-img-top {
+img.card_img_top {
   transition: transform 3s ease-in-out;
   width: 100%;
 }
