@@ -8,7 +8,7 @@ const About = () => {
     <div  className="container-fluid">
       <div id="about" style={{height: '10vh'}}></div>
       <div className="row">
-        <div className="col-md-12 text-center mx-4 p-3">
+        <div className="col-md-12 text-center px-2 px-lg-4 py-3">
           <Fade top>
             <h1 className="font-weight-bold">
               ABOUT <span className="text-color">ME</span>
@@ -16,10 +16,10 @@ const About = () => {
             <h3>Let me introduce...</h3>
           </Fade>
         </div>
-        <div className="col-md-12 px-5  pb-3 mb-5">
+        <div className="col-md-12 px-4 px-lg-5  pb-3 mb-5">
           <div className="row d-flex justify-content-center">
             <Fade left>
-              <div className="col-md-3 col-sm-12 text-center mb-4">
+              <div className="col-md-3 col-sm-12 text-center mb-4 p-0">
                 <img className="img-style mr-4" src={kawsar} alt="" />
               </div>
             </Fade>
@@ -38,7 +38,7 @@ const About = () => {
           </div>
         </div>
         <Fade bottom>
-          <div className="col-md-12 px-5 pb-5">
+          <div className="col-md-12 px-4 px-lg-5 pb-5">
             <div className="row">
               <div className="col-md-6">
                 <h3 className="pb-2">PROFILE</h3>

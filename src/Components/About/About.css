@@ -2,6 +2,7 @@
   height:200px;
   border-radius: 50%;
   border: 3px solid #e91e63;
+  max-width: 100%;
 }
 .technology {
   display: flex;
